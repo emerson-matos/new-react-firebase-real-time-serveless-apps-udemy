@@ -1,0 +1,16 @@
+html, body {
+    height: auto !important;
+    width: 100%;
+    padding: 20px;
+    background-color: grey;
+}
+
+.app_container {
+    padding-top: 0px auto;
+    width: 970px;
+    margin: 0px auto;
+}
+
+h1 {
+    margin: 10%;
+}
