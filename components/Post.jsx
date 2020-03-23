@@ -1,4 +1,4 @@
-import React, { useState, useEffect } omfrom 'react';
+import React, { useState, useEffect } from 'react';
 import { PageHeader, Card } from 'antd';
 import api from '../mock_api';
 import { Link } from '@reach/router';
