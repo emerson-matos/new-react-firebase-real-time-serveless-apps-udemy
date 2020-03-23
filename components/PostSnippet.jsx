@@ -13,7 +13,8 @@ const PostSnippet = (props) => {
                 title={props.title}
                 extra={<Link to={`/post/${props.id}`}>Read</Link>}
             >
-                {_.map(props.content, (object, idx) => (<p key={idx}>{object}</p>))}
+                {_.map(props.content.slice(0, 1), (object, idx) => (<p key={idx}>{object}</p>))}
+                <p>...</p>
             </Card>
         </div>
     )

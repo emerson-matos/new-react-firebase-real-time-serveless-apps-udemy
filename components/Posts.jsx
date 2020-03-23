@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PostSnippet from './PostSnippet';
 import { PageHeader } from 'antd';
-import api from '../mock_api'
 import _ from 'lodash';
 import db from '../firebase'
 
